@@ -1,0 +1,39 @@
+[
+  { "name": "HDFC Bank", "sector": "Financials" },
+  { "name": "ICICI Bank", "sector": "Financials" },
+  { "name": "Kotak Mahindra Bank", "sector": "Financials" },
+  { "name": "Axis Bank", "sector": "Financials" },
+  { "name": "State Bank of India", "sector": "Financials" },
+
+  { "name": "Infosys", "sector": "IT" },
+  { "name": "TCS", "sector": "IT" },
+  { "name": "HCL Technologies", "sector": "IT" },
+  { "name": "Wipro", "sector": "IT" },
+  { "name": "Tech Mahindra", "sector": "IT" },
+
+  { "name": "Reliance Industries", "sector": "Energy" },
+  { "name": "ONGC", "sector": "Energy" },
+  { "name": "Power Grid", "sector": "Energy" },
+
+  { "name": "Sun Pharma", "sector": "Pharma" },
+  { "name": "Dr Reddy's Laboratories", "sector": "Pharma" },
+  { "name": "Cipla", "sector": "Pharma" },
+  { "name": "Divi's Laboratories", "sector": "Pharma" },
+
+  { "name": "Maruti Suzuki", "sector": "Auto" },
+  { "name": "Tata Motors", "sector": "Auto" },
+  { "name": "Mahindra & Mahindra", "sector": "Auto" },
+  { "name": "Bajaj Auto", "sector": "Auto" },
+
+  { "name": "Hindustan Unilever", "sector": "FMCG" },
+  { "name": "ITC", "sector": "FMCG" },
+  { "name": "Nestle India", "sector": "FMCG" },
+  { "name": "Britannia Industries", "sector": "FMCG" },
+
+  { "name": "Larsen & Toubro", "sector": "Capital Goods" },
+  { "name": "Siemens India", "sector": "Capital Goods" },
+  { "name": "ABB India", "sector": "Capital Goods" },
+
+  { "name": "Bharti Airtel", "sector": "Telecom" },
+  { "name": "Indus Towers", "sector": "Telecom" }
+]

@@ -1,0 +1,71 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id         String      @id @default(cuid())
+  name       String
+  email      String      @unique
+  password   String
+  createdAt  DateTime    @default(now())
+  updatedAt  DateTime    @updatedAt
+  goals      Goal[]
+  portfolios Portfolio[]
+}
+
+model Portfolio {
+  id        String    @id @default(cuid())
+  name      String
+  userId    String
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  holdings  Holding[]
+  user      User      @relation(fields: [userId], references: [id])
+}
+
+model Holding {
+  id             String    @id @default(cuid())
+  amountInvested Float
+  monthlySip     Float?
+  portfolioId    String
+  createdAt      DateTime  @default(now())
+  fundId         String
+  fund           Fund      @relation(fields: [fundId], references: [id])
+  portfolio      Portfolio @relation(fields: [portfolioId], references: [id])
+}
+
+model Goal {
+  id            String   @id @default(cuid())
+  title         String
+  targetAmount  Float
+  timelineYears Int
+  userId        String
+  createdAt     DateTime @default(now())
+  user          User     @relation(fields: [userId], references: [id])
+}
+
+model Fund {
+  id           String        @id @default(cuid())
+  name         String        @unique
+  category     String?
+  expenseRatio Float?
+  aum          Float?
+  createdAt    DateTime      @default(now())
+  holdings     FundHolding[]
+  portfolios   Holding[]
+}
+
+model FundHolding {
+  id        String   @id @default(cuid())
+  stockName String
+  sector    String?
+  weight    Float
+  fundId    String
+  createdAt DateTime @default(now())
+  fund      Fund     @relation(fields: [fundId], references: [id])
+}

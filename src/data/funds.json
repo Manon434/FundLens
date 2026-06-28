@@ -1,0 +1,142 @@
+[
+  {
+    "id": "fund1",
+    "name": "Parag Parikh Flexi Cap Fund",
+    "category": "Flexi Cap",
+    "expenseRatio": 0.78,
+    "aum": 98000
+  },
+  {
+    "id": "fund2",
+    "name": "Axis Bluechip Fund",
+    "category": "Large Cap",
+    "expenseRatio": 0.54,
+    "aum": 35000
+  },
+  {
+    "id": "fund3",
+    "name": "Mirae Asset Large Cap Fund",
+    "category": "Large Cap",
+    "expenseRatio": 0.51,
+    "aum": 41000
+  },
+  {
+    "id": "fund4",
+    "name": "ICICI Prudential Bluechip Fund",
+    "category": "Large Cap",
+    "expenseRatio": 0.92,
+    "aum": 52000
+  },
+  {
+    "id": "fund5",
+    "name": "Canara Robeco Bluechip Fund",
+    "category": "Large Cap",
+    "expenseRatio": 0.48,
+    "aum": 12000
+  },
+  {
+    "id": "fund6",
+    "name": "HDFC Top 100 Fund",
+    "category": "Large Cap",
+    "expenseRatio": 0.83,
+    "aum": 31000
+  },
+  {
+    "id": "fund7",
+    "name": "Quant Flexi Cap Fund",
+    "category": "Flexi Cap",
+    "expenseRatio": 0.76,
+    "aum": 9000
+  },
+  {
+    "id": "fund8",
+    "name": "UTI Flexi Cap Fund",
+    "category": "Flexi Cap",
+    "expenseRatio": 0.87,
+    "aum": 21000
+  },
+  {
+    "id": "fund9",
+    "name": "HDFC Flexi Cap Fund",
+    "category": "Flexi Cap",
+    "expenseRatio": 0.91,
+    "aum": 45000
+  },
+  {
+    "id": "fund10",
+    "name": "JM Flexi Cap Fund",
+    "category": "Flexi Cap",
+    "expenseRatio": 0.95,
+    "aum": 2500
+  },
+  {
+    "id": "fund11",
+    "name": "Kotak Emerging Equity Fund",
+    "category": "Mid Cap",
+    "expenseRatio": 0.63,
+    "aum": 52000
+  },
+  {
+    "id": "fund12",
+    "name": "Motilal Oswal Midcap Fund",
+    "category": "Mid Cap",
+    "expenseRatio": 0.66,
+    "aum": 28000
+  },
+  {
+    "id": "fund13",
+    "name": "HDFC Mid-Cap Opportunities Fund",
+    "category": "Mid Cap",
+    "expenseRatio": 0.73,
+    "aum": 72000
+  },
+  {
+    "id": "fund14",
+    "name": "Nippon India Growth Fund",
+    "category": "Mid Cap",
+    "expenseRatio": 0.79,
+    "aum": 26000
+  },
+  {
+    "id": "fund15",
+    "name": "PGIM India Midcap Opportunities Fund",
+    "category": "Mid Cap",
+    "expenseRatio": 0.69,
+    "aum": 8000
+  },
+  {
+    "id": "fund16",
+    "name": "SBI Small Cap Fund",
+    "category": "Small Cap",
+    "expenseRatio": 0.74,
+    "aum": 30000
+  },
+  {
+    "id": "fund17",
+    "name": "Quant Small Cap Fund",
+    "category": "Small Cap",
+    "expenseRatio": 0.72,
+    "aum": 18000
+  },
+  {
+    "id": "fund18",
+    "name": "Nippon India Small Cap Fund",
+    "category": "Small Cap",
+    "expenseRatio": 0.68,
+    "aum": 61000
+  },
+  {
+    "id": "fund19",
+    "name": "Kotak Small Cap Fund",
+    "category": "Small Cap",
+    "expenseRatio": 0.71,
+    "aum": 14000
+  },
+  {
+    "id": "fund20",
+    "name": "Tata Small Cap Fund",
+    "category": "Small Cap",
+    "expenseRatio": 0.84,
+    "aum": 9000
+  }
+]
