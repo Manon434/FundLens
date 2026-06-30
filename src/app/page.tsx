@@ -64,12 +64,79 @@
 //   );
 // }
 
+// export default function Home() {
+//   return (
+//     <div className="min-h-screen flex items-center justify-center">
+//       <h1 className="text-4xl font-bold">
+//         FundLens
+//       </h1>
+//     </div>
+//   );
+// }
+
+import Link from "next/link";
+
 export default function Home() {
   return (
-    <div className="min-h-screen flex items-center justify-center">
-      <h1 className="text-4xl font-bold">
-        FundLens
-      </h1>
-    </div>
+    <main className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
+      <div className="mx-auto flex min-h-screen max-w-7xl flex-col items-center justify-center px-6 text-center">
+
+        <h1 className="text-6xl font-extrabold text-slate-900">
+          FundLens
+        </h1>
+
+        <p className="mt-6 max-w-2xl text-xl text-slate-600">
+          Analyze mutual funds, compare portfolios, simulate market crashes,
+          optimize investments, and track your financial goals — all in one place.
+        </p>
+
+        <div className="mt-10 flex flex-wrap justify-center gap-5">
+
+          <Link
+            href="/login"
+            className="rounded-xl bg-blue-600 px-8 py-4 font-semibold text-white transition hover:bg-blue-700"
+          >
+            Login
+          </Link>
+
+          <Link
+            href="/register"
+            className="rounded-xl border border-blue-600 px-8 py-4 font-semibold text-blue-600 transition hover:bg-blue-50"
+          >
+            Register
+          </Link>
+
+        </div>
+
+        <div className="mt-20 grid gap-6 md:grid-cols-3">
+
+          <div className="rounded-2xl bg-white p-6 shadow">
+            <h3 className="text-xl font-bold">Portfolio Analytics</h3>
+            <p className="mt-3 text-slate-600">
+              Analyze your investments with diversification, overlap,
+              expense ratio and health score.
+            </p>
+          </div>
+
+          <div className="rounded-2xl bg-white p-6 shadow">
+            <h3 className="text-xl font-bold">Fund Comparison</h3>
+            <p className="mt-3 text-slate-600">
+              Compare mutual funds side-by-side using returns, risk,
+              AUM and expense ratio.
+            </p>
+          </div>
+
+          <div className="rounded-2xl bg-white p-6 shadow">
+            <h3 className="text-xl font-bold">Stress Testing</h3>
+            <p className="mt-3 text-slate-600">
+              Simulate market crashes and receive intelligent portfolio
+              optimization suggestions.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </main>
   );
 }
